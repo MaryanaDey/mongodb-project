@@ -1,6 +1,9 @@
 // QU_jztpqp64it6N
 
 const mongoose = require("mongoose");
+// const dotenv = require("dotenv");
+// dotenv.config();
+require("dotenv").config();
 
 const { DB_HOST } = process.env;
 
